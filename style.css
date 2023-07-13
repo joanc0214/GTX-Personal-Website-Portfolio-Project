@@ -1,0 +1,77 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+section {
+  padding: 40px 0;
+}
+
+body {
+  position: relative;
+}
+
+.navbar-custom {
+  background-color: #FAF0E4;
+}
+
+section#hero-section {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
+    url("img/landscape.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(80,0,0);
+}
+
+section#mission-section {
+  background-color: #FAF0E4;
+}
+
+section#skills-section {
+  background-color: #9BCDD2;
+}
+
+section#carousel-section {
+  background-color: #FAF0E4;
+}
+
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+section#contact-section {
+  background-color: #9BCDD2;
+}
+
+.social-icon i {
+  color: #FAF0E4;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.social-icon:hover i {
+  color: darkslategray;
+}
+
+section#footer-section {
+  text-align: center;
+  background-color: #FAF0E4;
+}
